@@ -47,8 +47,7 @@ public class Triangulo2 extends Figuras{
     public void setAltura(double altura) {
         this.altura = altura;
     }
-    //Colocar vacio
-    public Triangulo2(){super ();}
+
 
     //Colocar vacio las herencias
     public Triangulo2(String nombre_figura1, double radio, double pi, double lado, double lado1, double lado2, double lado3, double base, double altura) {
