@@ -1,3 +1,5 @@
+package Figuras;
+
 public class Triangulo2 extends Figuras{
     //Atributos
     private double lado1;
@@ -59,13 +61,16 @@ public class Triangulo2 extends Figuras{
         this.altura = altura;
     }
     //Meotodos
-    public double Area_triangulo2(double area, double base, double altura) {
+    public double Area_triangulo2() {
         return ((this.base * this.altura)/2);
     }
 
-    public double perimetro_triangulo2(double lado1, double lado2, double lado3) {
+    public double perimetro_triangulo2() {
         return (this.lado1 + this.lado2 + this.lado3);
     }
 
-
+    public void imprimir(){
+        System.out.println("El perimetro del circulo es: " + perimetro_triangulo2());
+        System.out.println("El area del circulo es: " + Area_triangulo2());
+    }
 }

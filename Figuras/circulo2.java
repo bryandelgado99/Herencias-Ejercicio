@@ -1,3 +1,5 @@
+package Figuras;
+
 public class circulo2 extends Figuras{
 
         private float diametro;
@@ -36,13 +38,19 @@ public class circulo2 extends Figuras{
 
 
     }
-    public void imprimirA() {
+    private void imprimirA() {
         System.out.println("El área del círculo es: " + area);
     }
-    public void imprimirc() {
+    private void imprimirc() {
         System.out.println("La circunferencia del círculo es: " + circunferencia);
     }
-    public void imprimird() {
+    private void imprimird() {
         System.out.println("El diámetro del círculo es: " + diametro);
+    }
+
+    public void datos(){
+        imprimirA();
+        imprimirc();
+        imprimird();
     }
 }

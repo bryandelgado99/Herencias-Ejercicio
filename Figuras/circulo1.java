@@ -1,3 +1,5 @@
+package Figuras;
+
 public class circulo1 extends Figuras {
     //variables
     double area;

@@ -1,6 +1,8 @@
+package Figuras;
+
 public class Circulo3 extends Figuras{
 
-    //Atributos de clase Circulo3
+    //Atributos de clase Figuras.Circulo3
     private double area_circulo;
     private double perimetro_circulo;
 

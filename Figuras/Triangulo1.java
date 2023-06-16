@@ -1,3 +1,5 @@
+package Figuras;
+
 public class Triangulo1 extends Figuras {
     private double area_triangulo1;
     private double perimtero_triangulo1;
@@ -73,5 +75,10 @@ public class Triangulo1 extends Figuras {
     }
     public double getPerimetroTriangulo() {
         return perimtero_triangulo1;
+    }
+
+    public void imprimirDatos() {
+        System.out.println("\nEl area del triangulo es: " + area_triangulo1);
+        System.out.println("El perimetro del triangulo es: " + perimtero_triangulo1);
     }
 }

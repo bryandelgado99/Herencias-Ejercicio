@@ -1,3 +1,5 @@
+package Figuras;
+
 public class rectangulo1 extends Figuras{
 
     //ATRIBUTOS
