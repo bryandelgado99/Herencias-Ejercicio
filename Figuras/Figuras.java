@@ -1,3 +1,5 @@
+package Figuras;
+
 public class Figuras {
 
     //Atributos
